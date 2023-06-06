@@ -3,13 +3,13 @@ module github.com/containerd/stargz-snapshotter/ipfs
 go 1.16
 
 require (
-	github.com/containerd/containerd v1.6.10
+	github.com/containerd/containerd v1.7.2
 	github.com/ipfs/go-cid v0.1.0
 	github.com/ipfs/go-ipfs-files v0.2.0
 	github.com/ipfs/interface-go-ipfs-core v0.7.0
 	github.com/ipld/go-codec-dagpb v1.3.2 // indirect
 	github.com/libp2p/go-libp2p-record v0.1.1 // indirect
-	github.com/opencontainers/image-spec v1.0.3-0.20211202183452-c5a74bcca799
+	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b
 )
 
 // Temporary fork for avoiding importing patent-protected code: https://github.com/hashicorp/golang-lru/issues/73
