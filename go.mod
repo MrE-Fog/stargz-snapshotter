@@ -16,7 +16,6 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-retryablehttp v0.7.1
 	github.com/klauspost/compress v1.16.7
-	github.com/kr/pretty v0.3.1 // indirect
 	github.com/moby/sys/mountinfo v0.6.2
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0-rc4
@@ -24,13 +23,13 @@ require (
 	github.com/prometheus/client_golang v1.14.0
 	github.com/rs/xid v1.4.0
 	github.com/sirupsen/logrus v1.9.0
-	golang.org/x/net v0.12.0 // indirect
 	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.10.0
 	google.golang.org/grpc v1.57.0
 	k8s.io/api v0.27.4
-	k8s.io/apimachinery v0.27.4
+	k8s.io/apimachinery v0.28.1
 	k8s.io/client-go v0.27.4
+	k8s.io/cri-api v0.25.0
 )
 
 replace (
