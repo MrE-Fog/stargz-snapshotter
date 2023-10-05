@@ -25,12 +25,13 @@ require (
 	github.com/rs/xid v1.4.0
 	github.com/sirupsen/logrus v1.9.0
 	golang.org/x/net v0.12.0 // indirect
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.4.0
 	golang.org/x/sys v0.10.0
 	google.golang.org/grpc v1.57.0
 	k8s.io/api v0.27.4
 	k8s.io/apimachinery v0.27.4
 	k8s.io/client-go v0.27.4
+	k8s.io/cri-api v0.25.0
 )
 
 replace (
