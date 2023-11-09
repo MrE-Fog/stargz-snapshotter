@@ -12,7 +12,7 @@ require (
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
 	github.com/docker/go-metrics v0.0.1
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
-	github.com/hanwen/go-fuse/v2 v2.1.1-0.20220112183258-f57e95bda82d
+	github.com/hanwen/go-fuse/v2 v2.4.2
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-retryablehttp v0.7.1
 	github.com/klauspost/compress v1.16.7
@@ -31,6 +31,7 @@ require (
 	k8s.io/api v0.27.4
 	k8s.io/apimachinery v0.27.4
 	k8s.io/client-go v0.27.4
+	k8s.io/cri-api v0.25.0
 )
 
 replace (
